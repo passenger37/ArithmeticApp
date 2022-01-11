@@ -1,0 +1,4 @@
+.www {
+  display: grid;
+  grid-template-columns: 2.5% 12% 2.5% 12% 2.5% 12% 2.5% 12%;
+}
