@@ -43,6 +43,7 @@ export default function QuesObj(props) {
       while (o[c] !== true) {
         c = Math.round(Math.abs(Math.random() * 3));
       }
+      // eslint-disable-next-line default-case
       switch (c) {
         case 0:
           x.answer = Math.floor(a / b);
